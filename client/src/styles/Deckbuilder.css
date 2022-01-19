@@ -1,0 +1,157 @@
+.dbBox {
+  padding: 15px;
+}
+
+.dbBody {
+  background-color: #334155;
+  border: 1px solid #111827;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.dbFlex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dbFlexChild {
+  border: 1px solid #111827;
+  margin: 5px;
+  flex: 1;
+  min-width: 300px;
+  padding: 10px 0;
+  background-color: #6b7280;
+}
+
+.flexForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+textarea {
+  width: 90%;
+  margin: 5px auto;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  padding: 5px 2px;
+  border-radius: 5px;
+  flex: 1;
+  border: 1px solid #111827;
+}
+
+input {
+  width: 90%;
+  padding: 5px 2px;
+  margin: 5px auto;
+  display: block;
+}
+
+.dbFlexChild h3 {
+  text-align: center;
+}
+
+.saveDeck {
+  display: block;
+  margin: 15px auto 5px auto;
+  border: 1px solid #111827;
+  padding: 5px 10px;
+  background-color: #6b7280;
+  color: #f9fafb;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 80%;
+  font-weight: 500;
+  height: 30px;
+  font-family: inherit;
+  font-size: 1.1rem;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.1);
+}
+
+.searchbar2 {
+  width: 50%;
+  margin: 0 auto;
+  min-width: 200px;
+  text-align: center;
+  padding: 15px 0;
+  background-color: #334155;
+}
+
+.load {
+}
+
+.card2 {
+  width: 100px;
+  margin: 2px;
+  position: relative;
+}
+
+.card2 img {
+  width: 100%;
+
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card2 img:hover {
+  width: 210px;
+  position: absolute;
+  left: -52.5px;
+  z-index: 5;
+  border-radius: 10px;
+}
+
+.showTotal {
+  text-align: center;
+  font-weight: 700;
+}
+
+.remove {
+  border: 1px solid #111827;
+  background-color: #6b7280;
+  color: #f9fafb;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  margin: 0 5px;
+  font-family: inherit;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subHead {
+  text-align: center;
+  width: 100%;
+  font-size: 0.8rem;
+}
+
+.deckSize {
+  text-align: center;
+  font-weight: 400;
+  border: 1px solid #111827;
+  width: 200px;
+  margin: 5px auto;
+  background-color: #f9fafb;
+  color: black;
+  border-radius: 5px;
+  padding: 3px 5px;
+}
+
+.success {
+  background-color: #16a34a;
+  border: 1px solid #14532d;
+  width: 50%;
+  margin: 10px auto;
+  min-width: 300px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.dbBody a {
+  text-decoration: underline;
+}

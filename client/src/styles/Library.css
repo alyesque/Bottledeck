@@ -1,0 +1,92 @@
+.library {
+  padding: 15px;
+}
+
+.searchbar {
+  border: 1px solid #111827;
+  width: 50%;
+  margin: 0 auto;
+  min-width: 200px;
+  text-align: center;
+  padding: 15px 0;
+  background-color: #334155;
+}
+
+.advancedSearch {
+  border: 1px solid #111827;
+  background-color: #6b7280;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  margin-top: 10px;
+}
+
+.advancedSearch div {
+  margin: 8px 0;
+}
+
+.see {
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+  text-decoration: underline;
+}
+
+.loading {
+  justify-content: center;
+  height: 50vh;
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+}
+
+.load {
+  display: block;
+  width: 40px;
+}
+
+.setSelect {
+  max-width: 170px;
+}
+
+input {
+  font-family: inherit;
+  padding: 5px 10px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  border: 1px solid #111827;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.1);
+  font-weight: 400;
+}
+
+.searchButton {
+  margin: auto;
+  border: 1px solid #111827;
+  padding: 5px 10px;
+  background-color: #6b7280;
+  color: #f9fafb;
+  cursor: pointer;
+  border-radius: 5px;
+
+  font-weight: 500;
+  height: 34px;
+  font-family: inherit;
+  font-size: 1.1rem;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.1);
+}
+.checkBox {
+  width: 15px;
+  margin: 0 3px;
+}
+
+.checkFlex {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  justify-content: space-evenly;
+}
+
+.checkDiv {
+  display: flex;
+  place-items: center;
+}

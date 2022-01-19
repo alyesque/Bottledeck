@@ -1,0 +1,62 @@
+.deckFrame {
+  padding: 15px;
+}
+
+.viewDeckName {
+  background-color: #334155;
+  border: 1px solid #111827;
+  padding: 15px;
+}
+
+.deckGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 15px;
+}
+
+.deckGrid div div {
+  margin: 3px 0;
+}
+
+.deckGrid div a {
+  text-decoration: underline;
+}
+
+.viewCardsFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: #4b5563;
+  border: 1px solid #111827;
+  padding: 20px;
+}
+
+.card3 {
+  width: 200px;
+  overflow: hidden;
+  text-align: center;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.card3 img {
+  width: 100%;
+}
+
+.viewDeckName h3,
+h4,
+h5,
+h2 {
+  text-align: center;
+}
+
+.specHeader a {
+  text-decoration: underline;
+}
+
+.decsrip {
+  background-color: #4b5563;
+  border: 1px solid #111827;
+  padding: 15px;
+}

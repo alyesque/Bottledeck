@@ -1,0 +1,101 @@
+html,
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  width: 100vw;
+  background-color: #1f2937;
+}
+
+.appBody {
+  height: 100vh;
+}
+
+.NavTop {
+  height: 50px;
+  width: 100%;
+  background-color: #111827;
+  color: #f9fafb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 5;
+}
+
+.titleBox {
+  font-weight: bold;
+  font-size: 2rem;
+  height: 100%;
+  display: flex;
+  place-items: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+.login {
+  margin-right: 17px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.NavSide {
+  padding: 10px 0;
+  min-height: 90vh;
+  background-color: #334155;
+  width: 250px;
+  color: #f9fafb;
+  border-right: 1px solid #111827;
+}
+
+.sideButton {
+  height: 40px;
+  width: 220px;
+  background-color: #6b7280;
+  margin: 7px auto;
+  display: flex;
+  place-items: center;
+  place-content: center;
+  cursor: pointer;
+  border: 1px solid #111827;
+  font-weight: 500;
+}
+
+.logout {
+  background-color: #d1d5db;
+  color: #111827;
+}
+
+.subBody {
+  display: flex;
+}
+
+.right {
+  background-color: #1f2937;
+  flex: 1;
+  color: #f9fafb;
+}
+
+a {
+  text-decoration: none;
+
+  color: #f9fafb;
+}
+
+.navMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .NavSide {
+    display: none;
+  }
+  .navMobile {
+    display: flex;
+    padding: 3px 0;
+    background-color: #111827;
+    justify-content: space-evenly;
+  }
+  .sbMobile {
+  }
+}

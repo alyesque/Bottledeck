@@ -1,0 +1,127 @@
+.CardPage {
+  padding: 15px;
+}
+
+.CardPage h1 {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.cardImg {
+  border-radius: 15px;
+  display: block;
+}
+
+.mana {
+  width: 12px;
+  border-radius: 15px;
+  margin: 0 2px;
+  display: inline-block;
+}
+.manaInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+}
+
+.CPbody1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.CPbody2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  max-width: 100%;
+}
+
+.rulings {
+  margin: 15px;
+  flex: 4;
+  min-width: 300px;
+}
+
+.legality {
+  flex: 2;
+  margin: 15px;
+}
+
+.rulings td,
+.rulings th {
+  max-width: 200px;
+}
+
+.rulings th,
+.legality th {
+  height: 50px;
+}
+
+.CPbody2 table,
+.CPbody2 table tr,
+.CPbody2 table th,
+.CPbody2 table td {
+  border-collapse: collapse;
+  border: 2px solid #111827;
+}
+
+.CPbody2 table th {
+  background-color: #4b5563;
+}
+.CPbody2 table td {
+  padding: 5px;
+  text-align: center;
+}
+
+.CPbody2 table tr:nth-child(even) {
+  background-color: #6b7280;
+}
+
+.mainBox {
+  background-color: #334155;
+  width: auto;
+  padding: 10px;
+  border: 1px solid #111827;
+  margin: 0 auto;
+}
+
+.CPright {
+  max-width: 500px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  margin: 10px 0;
+}
+
+.favButton {
+  border: 1px solid #111827;
+  padding: 5px 10px;
+  background-color: #6b7280;
+  color: #f9fafb;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 80%;
+  font-weight: 500;
+  height: 30px;
+  margin: 15px auto;
+  font-family: inherit;
+  font-size: 1.1rem;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.1);
+}
+
+.favError {
+  background-color: #e11d48;
+  border: 1px solid #881337;
+}
+
+.favAdded {
+  background-color: #16a34a;
+  border: 1px solid #14532d;
+}

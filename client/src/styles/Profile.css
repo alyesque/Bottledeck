@@ -1,0 +1,129 @@
+.profilePage {
+  padding: 15px;
+}
+
+.profileBox {
+  background-color: #334155;
+  border: 1px solid #111827;
+  padding: 15px;
+}
+
+.profileBox h1 {
+  text-align: center;
+}
+
+.bioBox {
+  background-color: #4b5563;
+  border: 1px solid #111827;
+  padding: 20px;
+  font-weight: 500;
+}
+
+.favFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  place-items: center;
+}
+
+.favFlex div {
+  width: 150px;
+  margin: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.favFlex div img {
+  display: block;
+  width: 100%;
+}
+
+.seeMore {
+  border: 1px solid #111827;
+  background-color: #6b7280;
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.icon {
+  display: block;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 3px;
+  border: 1px solid #f3f4f6;
+  border-radius: 3px;
+}
+
+.textArea {
+  width: 95%;
+  margin: 0 auto;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h4 {
+  display: flex;
+  place-items: center;
+}
+
+.subMod {
+  display: block;
+  display: block;
+  margin: 15px auto 0 auto;
+  border: 1px solid #111827;
+  padding: 5px 10px;
+  background-color: #6b7280;
+  color: #f9fafb;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 40%;
+  font-weight: 500;
+  height: 30px;
+  font-family: inherit;
+  font-size: 1.1rem;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.1);
+}
+
+.deckBoxFlex {
+  background-color: #4b5563;
+  border: 1px solid #111827;
+  padding: 20px;
+  font-weight: 500;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.deckBox {
+  border: 1px solid #111827;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 7px;
+  overflow: hidden;
+  background-color: #374151;
+}
+
+.deckBox h5 {
+  text-align: center;
+  margin: 8px;
+
+  font-size: 1.1rem;
+}
+
+.deckBox img {
+  width: 100px;
+  display: block;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.twobytwo {
+  display: grid;
+  grid-template-columns: 100px 100px;
+}
