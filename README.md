@@ -4,6 +4,8 @@ Most of our features are only available after registering and logging into the a
 
 Our project is only possible because of the incredible work being done by the folks atmagicthegathering.io. While we operate our own servers and databases in order to enable user and deck creation, the raw card data comes from this incredible community resource.
 
+<strong> Stack: React, Node, Express, MongoDb </strong>
+
 Features: 
 
 1. Bottledeck allows for users to create unique profiles to store create decks as well as favorited cards. 
