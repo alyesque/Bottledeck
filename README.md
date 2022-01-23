@@ -1,3 +1,8 @@
+
+<p align="center">
+<img src='https://i.imgur.com/uGNAwsN.png' width='600' alt='a sample userprofile'>
+  </p>
+
 Bottledeck is a resource for Magic The Gathering Players. Our site allows you to simulate draft sessions with a high level of customization, build and store decks, and search for and view information on cards from a vast library.
 
 Most of our features are only available after registering and logging into the app, although the card library is publicly available.
@@ -6,7 +11,7 @@ Our project is only possible because of the incredible work being done by the fo
 
 <strong> Stack: React, Node, Express, MongoDb </strong>
 
-Features: 
+<h1>Features: </h1>
 
 1. Bottledeck allows for users to create unique profiles to store create decks as well as favorited cards. 
 
