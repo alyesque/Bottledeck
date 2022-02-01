@@ -22,7 +22,7 @@ Our project is only possible because of the incredible work being done by the fo
   <li> Express
   <li> Mongoose
   <li> MongoDB
-  <li> Git
+  <li> Git 
   <li> Github 
 </ul>
 
