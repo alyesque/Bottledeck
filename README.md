@@ -4,7 +4,7 @@
   </p>
 
 <h1> Overview </h1>
-
+ 
 Bottledeck is a resource for Magic The Gathering Players. Our site allows you to simulate draft sessions with a high level of customization, build and store decks, and search for and view information on cards from a vast library.
 
 Most of our features are only available after registering and logging into the app, although the card library is publicly available.
